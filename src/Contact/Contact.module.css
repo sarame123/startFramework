@@ -1,0 +1,25 @@
+.contactStar{
+    position: relative;
+    text-align: center;
+    color:#2C3E50;
+   }
+   
+   .contactStar::after{
+     content: "";
+     width: 100px;
+     height: 5px;
+     background-color: #2C3E50;
+     margin-left: 20px;
+     top: 50%;
+     position: absolute;
+   }
+   .contactStar::before{
+     content: "";
+     display: block;
+     width: 100px;
+     height: 5px;
+     background-color: #2C3E50;
+     left:38%;
+     top: 50%;
+     position: absolute;
+   }
